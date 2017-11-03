@@ -1,0 +1,13 @@
+/node_modules
+/npm-debug.log
+/.idea
+/.nodemon-find-ref
+.DS_Store
+/test/testdb.sqlite
+.jshintignore
+.jshintrc
+/coverage
+test-results.xml
+/scripts/location/location-data.json
+.vscode
+*.iml
