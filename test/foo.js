@@ -1,8 +1,10 @@
 const mocha = require('mocha');
 const expect = require('chai').expect;
+const foo = require('../src/foo');
 
 describe('foo', () => {
-    it('1 == 1 should be true', () => {
-        expect(1).to.equal(1);
+    it('should return foo', () => {
+        const result = foo();
+        expect(result).to.equal('foo');
     })
 })

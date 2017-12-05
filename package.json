@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test/"
+    "test": "./node_modules/nyc/bin/nyc.js ./node_modules/mocha/bin/_mocha test/",
+    "coverage": "./node_modules/nyc/bin/nyc.js report --reporter=clover"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "chai": "^4.1.2",
-    "mocha": "^4.0.1"
+    "chai": "4.1.2",
+    "clover": "0.0.1",
+    "istanbul": "0.4.5",
+    "mocha": "4.0.1",
+    "nyc": "11.3.0"
   }
 }

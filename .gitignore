@@ -11,3 +11,4 @@ test-results.xml
 /scripts/location/location-data.json
 .vscode
 *.iml
+/.nyc_output/
